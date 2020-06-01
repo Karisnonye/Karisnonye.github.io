@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    color: rgb(236, 24, 141);
+    
+} 
+
+@media  (max-width:768px) {
+	#img1{
+        height: 100px;
+        width: 100px;
+    }
+    #img2{
+        height: 70px;
+        width: 70px;
+    }
+    #img3{
+        height: 70px;
+        width: 70px;
+    }
+    #img4{
+        height: 70px;
+        width: 70px;
+	}
+	p{
+		font-size: 60px;
+	}
+}
+
+.dip{
+    background-color: #333;
+    background-repeat: repeat-x;
+    background-size: 100px;
+    animation-name: fire;
+    animation-delay: 20s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes fire{
+    0% {top: -900px;}
+    100%{background-image: url("https://res.cloudinary.com/karis/image/upload/v1590414206/449458_qod1b7.png"),
+        url("https://res.cloudinary.com/karis/image/upload/v1590414206/449458_qod1b7.png"),
+        url("https://res.cloudinary.com/karis/image/upload/v1590414206/449458_qod1b7.png"),
+        url("https://res.cloudinary.com/karis/image/upload/v1590414206/449458_qod1b7.png");
+        background-repeat: no-repeat,  no-repeat,  no-repeat,  no-repeat;
+        background-size: 200px, 200px, 200px, 200px;
+        background-position: left 1% top 2%, left 8% top 2%, right 1% top 2%, right 8% top 2% ;
+        }
+}
+
+.bite{
+    text-align: center;
+    font-size: 80px;
+    font-family: cursive; 
+    animation-name: bite;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: initial
+}
+@keyframes bite{
+    0%{ color: rgb(236, 24, 141); font-size: 200px;}
+    20%{ color: rgb(22, 194, 36); }
+    40%{ color: rgb(185, 41, 214); transform: rotateY(180deg);}
+    60%{ color: rgba(98, 186, 245, 0.116);}
+    80%{ color: rgb(172, 240, 14);}
+    100%{ color: rgb(230, 40, 87);}
+}
+
+#img1{
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10rem;
+    animation-name: img1;
+    animation-duration: 12s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+@keyframes img1{
+    0% {top: -900px; }
+    100%{top: 35px; transform: rotateY(360deg);}
+}
+
+#img2{
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10rem;
+    animation-name: img1;
+    animation-duration: 9s;
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes img2{
+    0% {top: -900px;}
+    100%{top: 35px;}
+}
+
+#img3{
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10rem;
+    animation-name: img1;
+    animation-duration: 8s;
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes img3{
+    0% {top: -900px; }
+    100%{top: 50px;}
+}
+
+#img4{
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    margin-top: -500px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10rem;
+    animation-name: img1;
+    animation-duration: 5s;
+    animation-delay: 19s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes img4{
+    0% {left: -900px; }
+    100%{top: 50px;}
+}
+
+#img1:hover{
+    width: 350px;
+    height: 350px;
+    
+}
+#img2:hover{
+    width: 350px;
+    height: 350px;
+}
+#img3:hover{
+    width: 350px;
+    height: 350px;
+}
+#img4:hover{
+    width: 350px;
+    height: 350px;
+}
+
