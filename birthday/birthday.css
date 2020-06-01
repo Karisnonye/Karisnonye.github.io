@@ -19,18 +19,9 @@ body{
         height: 70px;
         width: 70px;
     }
-    #img4{
-        height: 70px;
-        width: 70px;
-	}
-	p{
-		font-size: 60px;
-	}
-}
 
 .dip{
     background-color: #333;
-    background-repeat: repeat-x;
     background-size: 100px;
     animation-name: fire;
     animation-delay: 20s;
@@ -48,7 +39,7 @@ body{
         url("https://res.cloudinary.com/karis/image/upload/v1590414206/449458_qod1b7.png");
         background-repeat: no-repeat,  no-repeat,  no-repeat,  no-repeat;
         background-size: 200px, 200px, 200px, 200px;
-        background-position: left 1% top 2%, left 8% top 2%, right 1% top 2%, right 8% top 2% ;
+        background-position: left -3% top 2%, left 2% top 2%, right 2% top 2%, right -3% top 2% ;
         }
 }
 
@@ -98,7 +89,7 @@ body{
     border-radius: 10rem;
     animation-name: img1;
     animation-duration: 9s;
-    animation-delay: 13s;
+    animation-delay: 15s;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
 }
@@ -108,37 +99,12 @@ body{
     100%{top: 35px;}
 }
 
-#img4{
-    object-fit: cover;
-    object-position: top;
-    position: relative;
-    margin-top: -500px;
-    width: 300px;
-    height: 300px;
-    border-radius: 10rem;
-    animation-name: img1;
-    animation-duration: 5s;
-    animation-delay: 19s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
-}
-
-@keyframes img4{
-    0% {left: -900px; }
-    100%{top: 50px;}
-}
-
 #img1:hover{
     width: 350px;
     height: 350px;
     
 }
 #img2:hover{
-    width: 350px;
-    height: 350px;
-}
-
-#img4:hover{
     width: 350px;
     height: 350px;
 }
