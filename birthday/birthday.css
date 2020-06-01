@@ -39,7 +39,7 @@ body{
         url("https://res.cloudinary.com/karis/image/upload/v1590414206/449458_qod1b7.png");
         background-repeat: no-repeat,  no-repeat,  no-repeat,  no-repeat;
         background-size: 200px, 200px, 200px, 200px;
-        background-position: left -3% top 2%, left 2% top 2%, right 2% top 2%, right -3% top 2% ;
+        background-position: left -3% top 2%, left 1% top 2%, right 1% top 2%, right -3% top 2% ;
         }
 }
 
@@ -87,7 +87,7 @@ body{
     width: 300px;
     height: 300px;
     border-radius: 10rem;
-    animation-name: img1;
+    animation-name: img2;
     animation-duration: 9s;
     animation-delay: 15s;
     animation-fill-mode: forwards;
@@ -96,7 +96,7 @@ body{
 
 @keyframes img2{
     0% {top: -900px;}
-    100%{top: 35px;}
+    100%{top: 35px; transform: rotateY(360deg);}
 }
 
 #img1:hover{
