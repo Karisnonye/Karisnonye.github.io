@@ -1,0 +1,79 @@
+body{
+    background-color: #000066;
+    background-image: url("images/corner1.png"), url("images/corner2.png"), url("images/corner3.png"), url("images/corner4.png");
+    background-repeat: no-repeat,  no-repeat,  no-repeat,  no-repeat;
+    background-size: 15%, 15%, 15%, 15%;
+    background-position: right -8% bottom -5%, left -1% top -15%, right -11% top -1%, left -5% bottom -10% ;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+   margin: 50px auto;
+   display: block;
+}
+h2{
+    color: #2c2c75;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: U8, sans-serif;
+}
+
+#dim{
+   margin-top: -9px;
+   font-size: small;
+}
+form.sub{
+    margin-top: 20px;
+}
+
+.bend{
+    background-color: white;
+    width: 450px;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+input{
+    background-color:rgb(237, 239, 241);
+    width: 370px; height:50px;
+    border-radius: 0.3em;
+    border-style: none;
+    margin-top: 10px;
+    text-align: ;
+}
+label{
+    padding-bottom: 10em;
+    color: rgb(17, 17, 63);
+    font-size: small;
+}
+select{
+    background-color:rgb(233, 246, 250);
+    width: 370px; height:40px;
+    border-radius: 0.3em;
+    border-style: none;
+}
+button{
+    background-color:#19199b;
+    width: 400px; height: 70px;
+    border-radius: 1em;
+    color: white;
+}
+.btn :hover{
+    background-color:#000066 ;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(223, 215, 215);
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+    font-size: small;
+    
+}
+footer a :hover{
+    color: rgb(115, 119, 121);
+}
